@@ -1,0 +1,1 @@
+docker run --volume=`pwd`/inputFile:csvserver/inputdata -p 172.17.0.2:9393:9090 --env CSVSERVER_BORDER=Orange [CONTAINER ID]
