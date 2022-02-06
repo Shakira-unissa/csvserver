@@ -1,0 +1,150 @@
+  docker pull infracloudio/csvserver:latest
+   docker pull prom/prometheus:v2.22.0
+   docker container ls
+   infracloudio/csvserver:latest
+   docker start
+   docker ps
+   docker images
+   docker run 8cb989ef80b5
+   docker run -it infracloudio/csvserver /bin/bash
+   echo $((1 + $RANDOM % 10))
+   echo $((1 + $RANDOM % 1000))
+   echo $RANDOM
+   for i in $(seq 1 10); do echo $i;\ndone
+   for i in $(seq 1 10); do echo $i;done
+   for i in $(seq 0 9); do echo $i;done
+   for i in $(seq 1 10); do echo "$i, $((1 + $RANDOM % 1000))";done
+   for i in $(seq 0 9); do echo "$i, $((1 + $RANDOM % 1000))";done
+   vim gencsv.sh
+   chmod +x gencsv.sh
+   ./gencsv.sh 1
+   ./gencsv.sh 5
+   vim gencsv.sh
+   ./gencsv.sh 5
+   ls
+   cat inputFile
+   docker run 8cb989ef80b5
+   docker run --volume=`pwd`/inputFile:/csvserver/inputdata
+   docker run --volume=`pwd`/inputFile:/csvserver/inputdata 8cb989ef80b5
+   docker ps
+   docker exec -it 2dc7c22e17d7 /bin/bash
+   docker run --volume=`pwd`/inputFile:/csvserver/inputdata -p 9300:9393 8cb989ef80b5
+   docker ps
+   docker run --volume=`pwd`/inputFile:/csvserver/inputdata -p 9393:9300 8cb989ef80b5
+   docker ps
+   docker run --volume=`pwd`/inputFile:/csvserver/inputdata -p localhot:9393:9300 8cb989ef80b5
+   docker run --volume=`pwd`/inputFile:/csvserver/inputdata -p localhost:9393:9300 8cb989ef80b5
+   docker run --volume=`pwd`/inputFile:/csvserver/inputdata -p 127.0.0.1:9393:9300 8cb989ef80b5
+   docker ps
+   ip addr
+   docker run --volume=`pwd`/inputFile:/csvserver/inputdata -p 127.0.0.1:9393:9300 --env CSVSERVER_BORDER=Orange 8cb989ef80b5
+   docker ps
+   docker run --volume=`pwd`/inputFile:/csvserver/inputdata -p 127.0.0.1:9393:9300 --env CSVSERVER_BORDER=Orange 8cb989ef80b5
+   vim gencsv.sh
+   ./gencsv.sh 9
+   docker run --volume=`pwd`/inputFile:/csvserver/inputdata -p 127.0.0.1:9393:9300 --env CSVSERVER_BORDER=Orange 8cb989ef80b5
+   code docker-compose.yml
+   docker images
+   sudo curl -L "https://github.com/docker/compose/releases/download/1.28.5/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose\n
+   sudo chmod +x /usr/local/bin/docker-compose\n
+   docker-compose --v
+   docker-compose --version
+   docker-compose up
+   docker-compose --v
+   docker-compose up
+   docker container rm $(docker container ls -aq)
+   docker ps
+   docker container ls -aq
+   docker container kill $(docker container ls -aq
+   docker container kill $(docker container ls -aq)
+   docker-compose down
+   docker-compose up
+   docker container kill $(docker container ls -aq)
+   docker container rm
+   docker container rm $(docker container ls -aq)
+   docker-compose down
+   docker-compose up
+   docker ps
+   docker kill 
+   docker container kill $(docker container ls -aq)
+   docker ps
+   docker container ls
+   docker container ls-a
+   docker container ls -a
+   docker container rm $(docker container ls -aq)
+   docker container ls -a
+   docker-compose up
+   code prometheus.yml
+   docker-compose down
+  cd..
+   cd ..
+   docker-compose up
+   docker ps
+   docker-compose up
+   cd 
+   docker ps
+   docker-compose up
+   docker-compose down
+   docker-compose up
+   docker-compose down
+   docker-compose up
+   docker-compose down
+  history
+  git --version
+  docker-compose up
+  docker-compose down
+  cd
+  docker-compose up
+  docker ps
+  docker exec -it 44769de3131d /bin/bash
+  docker exec -it 1343a3fcfbf9 /bin/bash
+  docker exec -it 1343a3fcfbf9 /bin/sh
+  docker network ls
+  docker exec -it 1343a3fcfbf9 /bin/sh
+  docker ps 
+  docker exec -it d728afdd6a93 /bin/sh
+  docker-compose up
+  docker exec -it d728afdd6a93 /bin/sh
+  docker-compose up
+  cd
+  docker ps
+  docker exec -it 1343a3fcfbf9  /bin/sh
+  docker network ls
+  docker-compose up -d
+  docker ps
+  docker exec -it 46e61589ab30 /bin/sh
+  docker exec -it 0ffede0b93ba /bin/sh
+  docker ps
+  docker exec -it 46e61589ab30  /bin/sh
+  docker exec -it 0ffede0b93ba  /bin/sh
+  docker exec -it 46e61589ab30  /bin/sh
+  docker exec -it --user root 46e61589ab30  /bin/sh
+  docker-compose down
+  docker-compose up
+  ping google.com
+  docker-compose up
+  docker-compose down
+  docker-compose up
+  docker-compose down
+  docker-compose up
+  docker ps
+  docker exec -it --user root 1085b7b4b751  /bin/sh
+  docker network create --ipv6 --subnet=2001:3984:3989::/64 dockerbridge6~
+  docker network ls
+  docker-compose down
+  docker-compose up
+  docker network ls
+  docker-compose up
+  docker ps
+  docker exec -it 36fb81a039b1 /bin/sh
+  docker-compose down
+  docker-compose up
+  docker psh
+  docker ps
+  docker exec -it da8860bdf30d /bin/sh
+  curl -o ./part-1-output http://localhost:9393/raw
+  docker-compose up
+  curl -o ./part-1-output http://localhost:9393/raw
+  docker ps
+  docker logs 2438d7ba010b >& part-1-logs
+  docker-compose down
